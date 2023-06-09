@@ -9,7 +9,7 @@
     "repositories": [
         {
             "url": "https://github.com/edoniti/eloquence-base-8",
-            "type": "git"
+            "type": "vcs"
         }
     ],
     "keywords": [
