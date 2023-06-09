@@ -3,9 +3,15 @@
     "description": "Flexible Searchable, Mappable, Metable, Validation and more extensions for Laravel Eloquent ORM.",
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/jarektkaczyk/eloquence/issues",
-        "source": "https://github.com/jarektkaczyk/eloquence"
+        "issues": "https://github.com/edoniti/eloquence-8/issues",
+        "source": "https://github.com/edoniti/eloquence-8"
     },
+    "repositories": [
+        {
+            "url": "https://github.com/edoniti/eloquence-base-8",
+            "type": "git"
+        }
+    ],
     "keywords": [
         "laravel",
         "eloquent",
@@ -24,7 +30,7 @@
     ],
     "require": {
         "php": ">=7.1.0",
-        "sofa/eloquence-base": ">=5.5",
+        "edoniti/sofa-eloquence-base": "dev-master",
         "sofa/eloquence-metable": ">=5.5",
         "sofa/eloquence-mutable": ">=5.5",
         "sofa/eloquence-mappable": ">=5.5",
